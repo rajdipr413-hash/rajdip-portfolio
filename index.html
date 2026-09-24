@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajdip — 3D Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="webgl"></canvas>
+
+  <header class="nav">
+    <div class="logo">RAJDIP<span>.</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CREATIVE • 3D • WEB</p>
+        <h1>RAJDIP<br><span>PORTFOLIO</span></h1>
+        <p class="intro">
+          A cinematic interactive portfolio built with Three.js.
+          Move your mouse around the scene and explore.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#work">Explore Work</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="assets/hero.png" alt="3D portfolio character" />
+        <div class="scan"></div>
+        <div class="card-label">01 / DIGITAL IDENTITY</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">ABOUT</p>
+      <h2>Building digital experiences<br><span>with a futuristic edge.</span></h2>
+      <p class="body">
+        This starter portfolio combines a 3D WebGL background, glassmorphism UI,
+        animated particles and a responsive layout. Replace the text and project
+        cards with your own work.
+      </p>
+    </section>
+
+    <section id="work" class="section">
+      <p class="eyebrow">SELECTED WORK</p>
+      <div class="projects">
+        <article class="project">
+          <span>01</span><h3>3D Character</h3>
+          <p>Interactive hero character and visual identity.</p>
+        </article>
+        <article class="project">
+          <span>02</span><h3>Web Experience</h3>
+          <p>Motion-first responsive website concept.</p>
+        </article>
+        <article class="project">
+          <span>03</span><h3>Creative Visuals</h3>
+          <p>Posters, edits and cinematic digital artwork.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Let's make something<br><span>memorable.</span></h2>
+      <a class="mail" href="mailto:your@email.com">your@email.com</a>
+    </section>
+  </main>
+
+  <footer>© 2026 Rajdip. Built with Three.js.</footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
